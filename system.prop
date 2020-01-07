@@ -19,6 +19,9 @@ media.stagefright.thumbnail.prefer_hw_codecs=true
 mmp.enable.3g2=true
 persist.mm.enable.prefetch=true
 
+# ParanoidDoze
+ro.sensor.pickup=xiaomi.sensor.pickup
+
 # Radio
 ril.subscription.types=RUIM
 

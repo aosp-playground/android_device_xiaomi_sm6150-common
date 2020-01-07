@@ -112,10 +112,6 @@ PRODUCT_COPY_FILES += \
     frameworks/native/data/etc/android.hardware.camera.full.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.camera.full.xml \
     frameworks/native/data/etc/android.hardware.camera.raw.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.camera.raw.xml
 
-# Device-specific settings
-PRODUCT_PACKAGES += \
-    XiaomiParts
-
 # Dexpreopt
 PRODUCT_DEXPREOPT_SPEED_APPS += \
     SystemUI
@@ -286,6 +282,10 @@ DEVICE_PACKAGE_OVERLAYS += \
     $(LOCAL_PATH)/overlay
 
 PRODUCT_ENFORCE_RRO_TARGETS += *
+
+# ParanoidDoze
+PRODUCT_PACKAGES += \
+    ParanoidDoze
 
 # Partitions
 PRODUCT_USE_DYNAMIC_PARTITIONS := true
