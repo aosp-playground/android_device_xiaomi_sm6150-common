@@ -14,7 +14,7 @@
      See the License for the specific language governing permissions and
      limitations under the License.
 -->
-<resources>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <!-- Xiaomi Parts -->
     <string name="app_name">Xiaomi Parts</string>
 
@@ -30,4 +30,18 @@
     <string name="thermal_navigation">Navigation</string>
     <string name="thermal_streaming">Streaming</string>
     <string name="thermal_video">Video</string>
+
+    <!-- Haptic Level Settings -->
+    <string name="haptic_title">Haptic feedback</string>
+    <string name="haptic_warning">Setting-up haptic level too high may cause permanent hardware damage, use at your own risk</string>
+    <string name="haptic_summary">Customize vibration intensity</string>
+    <string name="haptic_level_title">Level</string>
+    <string name="haptic_level_summary">Amount of vibration intensity</string>
+    <string name="haptic_level_summary_incompatible">Feature not supported</string>
+
+    <!-- Custom seekbar -->
+    <string name="custom_seekbar_value">Value: <xliff:g id="v">%s</xliff:g></string>
+    <string name="custom_seekbar_default_value">by default</string>
+    <string name="custom_seekbar_default_value_to_set">Default value: <xliff:g id="v">%s</xliff:g>\nLong tap to set</string>
+    <string name="custom_seekbar_default_value_is_set">Default value is set</string>
 </resources>

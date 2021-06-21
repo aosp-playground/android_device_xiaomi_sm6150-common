@@ -70,3 +70,6 @@ genfscon sysfs /devices/virtual/input/input1/wakeup                             
 
 # Touchpanel
 genfscon sysfs /devices/virtual/touch/touch_dev/        u:object_r:sysfs_touchpanel:s0
+
+# Haptic
+genfscon sysfs /devices/platform/soc/a8c000.i2c/i2c-2/2-005a/ulevel u:object_r:sysfs_vibrator:s0
