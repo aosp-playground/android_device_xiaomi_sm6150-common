@@ -30,4 +30,7 @@
         <item>restart_fastboot</item>
         <item>restart_bootloader</item>
     </string-array>
+
+    <!-- Pocket Lock -->
+    <bool name="config_pocketModeSupported">false</bool>
 </resources>
