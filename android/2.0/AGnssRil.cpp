@@ -1,5 +1,5 @@
 /*
- * Copyright (c) 2017-2020, The Linux Foundation. All rights reserved.
+ * Copyright (c) 2017-2019, The Linux Foundation. All rights reserved.
  * Not a Contribution
  */
 /*
@@ -36,7 +36,7 @@ typedef void* (getLocationInterface)();
 namespace android {
 namespace hardware {
 namespace gnss {
-namespace V2_1 {
+namespace V2_0 {
 namespace implementation {
 
 
@@ -129,7 +129,7 @@ Return<bool> AGnssRil::updateNetworkState_2_0(const V2_0::IAGnssRil::NetworkAttr
 }
 
 }  // namespace implementation
-}  // namespace V2_1
+}  // namespace V2_0
 }  // namespace gnss
 }  // namespace hardware
 }  // namespace android
