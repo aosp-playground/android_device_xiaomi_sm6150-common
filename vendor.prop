@@ -177,7 +177,7 @@ debug.stagefright.omx_default_rank=0
 vendor.post_boot.custom=true
 
 # Netflix
-vendor.netflix.bsp_rev=Q6150-17263-1
+ro.netflix.bsp_rev=Q6150-17263-1
 
 # QC framework value-adds
 ro.vendor.qti.va_aosp.support=1
