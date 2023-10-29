@@ -248,6 +248,8 @@ vendor/gpu/kbc/unified_ksqs.bin|8f77dc004796d58acb959e78f4994c5d6b90baef
 -vendor/lib/egl/libq3dtools_esx.so|db92011d835f0b229c77210a54a56d7e26ed0bf3
 -vendor/lib/hw/vulkan.adreno.so|d59d50dcad5e3113fca1c95ab73dfcd265c23c66
 -vendor/lib/libC2D2.so|1c89e545a5dabc94d27db32031594a792d91d6fd
+-vendor/lib/libCB.so|7cc1c0523ce4187559ac260a9c05c9c183e59742
+-vendor/lib/libOpenCL.so|d5642e23207996dbbc13273927127ecf04fced53
 -vendor/lib/libVkLayer_q3dtools.so|fdd571695a749ac0ed92990504b1fdd50688874c
 -vendor/lib/libadreno_app_profiles.so|133f073d37100ef0e9a5ea004e51142e24cdae6e
 -vendor/lib/libadreno_utils.so|57411f42a5426334c8410a2ed6674c0634aaa7f4
@@ -255,6 +257,7 @@ vendor/gpu/kbc/unified_ksqs.bin|8f77dc004796d58acb959e78f4994c5d6b90baef
 -vendor/lib/libgpudataproducer.so|a0313e0467055f848763dafc1ea9cae82e3b81a2
 -vendor/lib/libgsl.so|b1c13ba071c85cf803caab1393ed0a76a9c530b8
 -vendor/lib/libllvm-glnext.so|20b0c962b870e37e69ad83d0d11ddd7e7b2fe07e
+-vendor/lib/libllvm-qcom.so|040954cc982da87731d005ae00a38f49801fa213
 -vendor/lib64/egl/eglSubDriverAndroid.so|2692fd8aac6a9fd49faace2213b2631f7595afad
 -vendor/lib64/egl/libEGL_adreno.so|213c6b8f1ff131f11e3f0f1d8aec8aaf39b0ed1a
 -vendor/lib64/egl/libGLESv1_CM_adreno.so|b9e14710b9c2be024e1fdf77d60266423e484047
