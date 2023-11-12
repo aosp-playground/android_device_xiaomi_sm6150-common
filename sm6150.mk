@@ -176,7 +176,8 @@ PRODUCT_PACKAGES += \
 # GPS
 PRODUCT_PACKAGES += \
     android.hardware.gnss@2.1-impl-qti \
-    android.hardware.gnss@2.1-service-qti
+    android.hardware.gnss@2.1-service-qti \
+    android.hardware.health@2.1.vendor
 
 PRODUCT_PACKAGES += \
     gnss@2.0-base.policy \
