@@ -261,7 +261,8 @@ TARGET_COMMON_QTI_COMPONENTS := \
     bt \
     display \
     perf \
-    telephony
+    telephony \
+    wfd
 
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/permissions/qti_whitelist.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/sysconfig/qti_whitelist.xml
@@ -339,14 +340,8 @@ PRODUCT_COPY_FILES += \
 
 # WiFi Display
 PRODUCT_PACKAGES += \
-    libavservices_minijail_32 \
     libdisplayconfig.qti \
-    libnl \
-    libqdMetaData \
-    libwfdaac_vendor
-
-PRODUCT_BOOT_JARS += \
-    WfdCommon
+    libqdMetaData
 
 # ZRAM writeback
 PRODUCT_PROPERTY_OVERRIDES += \
