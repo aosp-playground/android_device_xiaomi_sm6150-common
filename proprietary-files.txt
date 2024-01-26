@@ -15,14 +15,6 @@ vendor/etc/init/vendor.qti.cdsprpc-service.rc
 -vendor/lib64/libmdsprpc.so
 -vendor/lib64/libsdsprpc.so
 
-# Alarm
-product/app/PowerOffAlarm/PowerOffAlarm.apk
--vendor/bin/hw/vendor.qti.hardware.alarm@1.0-service
--vendor/bin/power_off_alarm
-vendor/etc/init/vendor.qti.hardware.alarm@1.0-service.rc
--vendor/lib64/hw/vendor.qti.hardware.alarm@1.0-impl.so
--vendor/lib64/vendor.qti.hardware.alarm@1.0.so
-
 # ANT+
 -vendor/lib64/hw/com.dsi.ant@1.0-impl.so
 
