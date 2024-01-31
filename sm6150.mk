@@ -187,8 +187,11 @@ PRODUCT_PACKAGES += \
     vendor.lineage.health-service.default
 
 # Overlay
-DEVICE_PACKAGE_OVERLAYS += \
-    $(LOCAL_PATH)/overlay
+PRODUCT_PACKAGES += \
+    XiaomiSM6150FrameworksOverlay \
+    XiaomiSM6150SettingsOverlay \
+    XiaomiSM6150SettingsProviderOverlay \
+    XiaomiSM6150SystemUIOverlay
 
 PRODUCT_ENFORCE_RRO_TARGETS += *
 
@@ -218,6 +221,7 @@ TARGET_COMMON_QTI_COMPONENTS := \
     display \
     gps \
     media \
+    overlay \
     perf \
     telephony \
     usb \
